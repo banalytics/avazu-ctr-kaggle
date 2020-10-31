@@ -1,7 +1,8 @@
 # avazu-ctr-kaggle
 
-Installation:
+### Installation:
 (For simplicity's sake I am focusing on Mac setup)
+```
 # Make sure the following is installed
 brew install pyenv readline xz
 
@@ -19,8 +20,9 @@ source ~/.pyenv/versions/ctr-data/bin/activate
 
 # Install Dependencies
 pip install -r requirements.txt
+```
 
-# Setup Kaggle API credentials
+### Setup Kaggle API credentials
 1. Go to kaggle.com
 2. If you don't have an account create one
 3. Log in
@@ -28,7 +30,7 @@ pip install -r requirements.txt
 5. Create new api token
 6. Download the kaggle.json credentials and move them to the root directory of this repo
 
-# Run the code
+### Run the code
 1. Start jupyter notebook by using the jupyter notebook command
 2. Open the rg-avazu-ctr-kaggle.ipynb notebook
 3. Select Run All Cells in the top menu
