@@ -45,7 +45,7 @@ if 'avazu-ctr-prediction.zip' not in os.listdir():
 get_ipython().system('unzip avazu-ctr-prediction.zip')
 
 
-# It seems that the train table is quite large, we'll process it in chunks and only pick the two columns relevant for our analysis (hour + clicks). After all, our aggregations are count/sums which can be done on chunks and aggregated further.
+# It seems that the train table is quite large, we'll process it in chunks and only pick the two columns relevant for our analysis (hour + clicks). After all, our aggregations are count/sums which can be done on chunks and aggregated further. (To be honest, reducing the loaded columns to only 2 probably removes the need to go in chunks, but I am keeping the code in place)
 
 # In[6]:
 
