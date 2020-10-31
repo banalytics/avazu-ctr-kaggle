@@ -1,3 +1,4 @@
 kaggle==1.5.9
 pandas==1.0.5
 jupyterlab
+matplotlib

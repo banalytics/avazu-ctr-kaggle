@@ -1,3 +1,9 @@
+# IDE files
 .idea/*
 
+# Credentials
 kaggle.json
+
+# Data Files
+*.zip
+*.gz
