@@ -1,5 +1,7 @@
 # avazu-ctr-kaggle
 
+Uses data from https://www.kaggle.com/c/avazu-ctr-prediction/team
+
 ### Installation:
 (For simplicity's sake I am focusing on Mac setup)
 ```
